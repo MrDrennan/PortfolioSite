@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <title>Chad Drennan | Web Developer</title>
+</head>
+<body>
+<!--<nav class="navbar navbar-expand-md sticky-top navbar-dark bg-dark info-color">-->
+<nav class="navbar navbar-expand-md sticky-top navbar-light bg-light info-color">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="nav" class="navbar-nav ml-md-auto">
+            <li class="nav-item active">
+                <a class="nav-link waves-effect waves-light" href="#about">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="resume/index.html">Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="guestDropdown"
+                   aria-haspopup="true" aria-expanded="false" href="#">Guestbook</a>
+
+                <div class="dropdown-menu bg-light" aria-labelledby="guestDropdown">
+                    <a class="dropdown-item" href="guestbook.php">Sign Guestbook</a>
+                    <a class="dropdown-item" href="guests.php">All Guests</a>
+                </div>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="https://linkedin.com/in/chad-drennan-5b054261">LinkedIn</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<header>
+    <h1>Chad Drennan</h1>
+</header>
+<main class="container">
+    <h2 id="about">About Me</h2>
+    <hr>
+    <br>
+    <p>
+        I'm a junior in Green River College's BAS program for software development. It is very rewarding to take courses
+        for this program. Every aspect of the development process fosters a different portion of my interests and
+        personality. I take pride in building projects and making them more valuable. I will be honored to find a great
+        team and add value alongside them when I graduate.
+    </p>
+
+    <h2 id="portfolio">Portfolio</h2>
+    <hr>
+    <br>
+
+    <h3>PC2 Website</h3>
+    <br>
+    <div id="pc2Slide" class="carousel slide carousel-fade" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li class="active" data-target="#pc2Slide" data-slide-to="0"></li>
+            <li data-target="#pc2Slide" data-slide-to="1"></li>
+            <li data-target="#pc2Slide" data-slide-to="2"></li>
+            <li data-target="#pc2Slide" data-slide-to="3"></li>
+            <li data-target="#pc2Slide" data-slide-to="4"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/PC2menu1.png" alt="PC2 menu">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/PC2English.png" alt="PC2 language dropdown">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/PC2Chinese.png" alt="PC2 Chinese language">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/PC2ChineseMenu.png" alt="PC2 Chinese language menu">
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/PC2mobileCombined.png" alt="PC2 mobile website">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#pc2Slide" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+                <span class="sr-only">Previous</span>
+            </span>
+        </a>
+        <a class="carousel-control-next" href="#pc2Slide" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+                <span class="sr-only">Next</span>
+            </span>
+        </a>
+    </div>
+    <br>
+
+    <p>
+        The goal of this project is to port a Wix website (pc2online.org) to a custom site with added features using
+        ASP.NET Core and GitHub. The website in development can be found at pc2.azurewebsites.net. Some of the
+        improvements added are screen responsiveness, editable web pages for the client, globalization for different
+        language selection, and CRUD functionality for agencies associated with PC2.
+    </p>
+    <br>
+
+    <h3>9-Tap Tour Desktop App</h3>
+    <p>
+        I worked in a large team to add features and debug a Windows forms desktop bowling application. I added value
+        to this project by troubleshooting bugs, providing solutions, adding features, paying attention to the client's
+        feedback, writing maintainable code, refactoring, writing tests and documentation. Out of 48 students that had
+        worked on this project throughout the years, I was listed has the second highest contributor of commits on
+        GitHub. (The client wishes for the app not to be shown)
+    </p>
+    <br>
+
+    <h3>Auto Service Tracker</h3>
+    <br>
+    <img class="d-block w-100" src="images/ASTcombined.png" alt="Auto Service Tracker app">
+    <br>
+    <p>
+        Auto Service Tracker is an Android app that keeps track of all the user’s vehicle info, services and logs of
+        services completed. These three main uses are separated by the tabs at the top. To select the services needed
+        for a vehicle the user selects a vehicle from the list at the bottom and can add or edit a service with the
+        action button. To log a service the user touches one of the services at the bottom of the screen and can see a
+        list of all services completed.
+    </p>
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

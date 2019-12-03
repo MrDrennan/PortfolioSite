@@ -1,0 +1,24 @@
+#emailFormatSection {
+    display: none;
+}
+
+.err {
+    color: darkred;
+    display: none;
+}
+
+fieldset {
+    border: 1px solid #007bff;
+    padding: 1em;
+}
+
+legend {
+    width: auto;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 155%;
+}
+
+#otherSection {
+    display: none;
+}
